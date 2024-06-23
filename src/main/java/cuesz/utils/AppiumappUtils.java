@@ -17,8 +17,10 @@ public class AppiumappUtils {
         
         
         Map<String,String> params =new  HashMap<String,String>();
-        //package name =	"package_name": "com.cuesz.mobile"
-		params.put("bundleId", "com.cuesz.mobile");
+        //package name =	"package_name": "/io.appium.android.apis.ApiDemos"
+		params.put("bundleId", "io.appium.android.apis");
 		driver.executeScript("mobile:launchApp", params);
+		
+//		 io.appium.android.apis.ApiDemos
     }
 }
